@@ -19,6 +19,18 @@ def update_xml_config(xml_filename, fov, height, width):
         elif attr.attrib["name"] == "Width":
             attr.set("value", str(width))
 
+    # VSync disabled
+    vsync_attr = ET.Element("Attr")
+    vsync_attr.set("name", "VSync")
+    vsync_attr.set("value", "0")
+    root.append(vsync_attr)
+    
+    # Windowed mode borderless
+    window_mode_attr = ET.Element("Attr")
+    window_mode_attr.set("name", "WindowMode")
+    window_mode_attr.set("value", "2")
+    root.append(window_mode_attr)
+
     tree.write(xml_filename)
 
 def print_ordered_options(options):
@@ -107,8 +119,12 @@ def main():
     print(f"Headset: {selected_brand} {selected_model}")
     print(f"Lens Configuration: {selected_lens_config}")
     print(f"Resolution: {selected_resolution}")
-    print(f"\033[1mRecommended setting your VorpX Pixel 1:1 Zoom value to at least:\033[0m {vorpx_config_zoom}")
-
+    # Print fixed values
+    print("SC window mode set to Borderless")
+    print("VSync has been disabled (recommended)")
+    # Print pre-calculated zoom-variable
+    print(f"\033[1mRecommended setting your VorpX Pixel 1:1 Zoom value to at least {vorpx_config_zoom} if able.\033[0m")
+    # Inform User of Completion of Code
     print("\nConfiguration updated successfully!")
 
 
