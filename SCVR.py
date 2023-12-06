@@ -1,3 +1,13 @@
+"""
+Script Name: SCVR.py
+Version: 1.2
+Author: Kory Kinnett
+Date: December 2023
+
+Description:
+This script modifies your attributes.xml's FOV, Height, Width, WindowMode, VSync attributes. It allows a user to select preset settings for specific (30) headsets and their respective (80) lens/fov configurations.'
+"""
+
 import json
 import xml.etree.ElementTree as ET
 import re
@@ -36,6 +46,14 @@ def update_xml_config(xml_filename, fov, height, width):
 def print_ordered_options(options):
     for index, option in enumerate(options, 1):
         print(f"{index}) {option}")
+
+def show_additional_resolutions(resolutions):
+    print("\nOptions:")
+    for index, resolution in enumerate(resolutions):
+        print(f"{index + 1}. {resolution}")
+
+    option_index = int(input("\nEnter the option index: ")) - 1
+    return resolutions[option_index]
 
 def main():
     json_filename = 'SCVR.json'
@@ -91,26 +109,56 @@ def main():
     
     # Sort resolutions based on the ending % value
     available_resolutions.sort(key=lambda x: float(re.search(r'(\d+)%', x).group(1)) if re.search(r'(\d+)%', x) else float('inf'))
-    
-    print("Available resolutions:")
+
+    # Print list of resolutions
     for index, resolution in enumerate(available_resolutions, 1):
         print(f"{index}. {resolution}")
+    
+    # Lastly, print alt resolution option.
+    additional_resolutions_option = "Show Additional Resolutions"
+    additional_option_index = len(available_resolutions) + 1
+    print(f"{additional_option_index}. {additional_resolutions_option}")
+    option_index = int(input("\nEnter the option index: "))
+    
+    # Initialize height and width variables
+    height = width = 0
 
-    # Prompt user for resolution selection
-    resolution_index = int(input("Enter the resolution index: ")) - 1
-    selected_resolution = available_resolutions[resolution_index]
-
-    # Use regular expression to extract numeric values from the resolution string
-    match = re.search(r'(\d+)\s*X\s*(\d+)', selected_resolution)
-    if match:
-        width, height = map(int, match.groups())
+    # Check if the user selected the alternative resolution option
+    if option_index == additional_option_index:
+        # Additional resolutions
+        resolution_type_options = [
+            "Alternative Interger Resolutions (small list)",
+            "Alternative Interger Resolutions (big list)",
+            "Give me all the resolutions"
+        ]
+        selected_resolution_type = show_additional_resolutions(resolution_type_options)
+        
+        # Use the selected resolution type to filter the resolutions
+        additional_resolutions = configurations[key].get(selected_resolution_type, [])
+        if additional_resolutions:
+            additional_option_index += len(resolution_type_options)
+            print_ordered_options(additional_resolutions)
+            additional_resolution_index = int(input("\nEnter the resolution index: ")) - 1
+            selected_resolution = additional_resolutions[additional_resolution_index]
+            
+            # Extract numeric values from the resolution string
+            match = re.search(r'(\d+)\s*X\s*(\d+)', selected_resolution)
+            if match:
+                width, height = map(int, match.groups())
     else:
-        print("Invalid resolution format. Please enter resolutions in the format 'width X height'.")
-        return
+        # User selected a resolution from the available list
+        selected_resolution = available_resolutions[option_index - 1]
+
+        # Extract numeric values from the resolution string
+        match = re.search(r'(\d+)\s*X\s*(\d+)', selected_resolution)
+        if match:
+            width, height = map(int, match.groups())
+        else:
+            print("Invalid resolution format. Please enter resolutions in the format 'width X height'.")
 
     # Update XML file with selected values
     update_xml_config(xml_filename, configurations[key]["SC Attributes FOV"], height, width)
-    
+   
     # Get the recommended VorpX Config Pixel 1:1 Zoom value
     vorpx_config_zoom = configurations[key]["VorpX Config Pixel 1:1 Zoom"]
 
@@ -126,7 +174,6 @@ def main():
     print(f"\033[1mRecommended setting your VorpX Pixel 1:1 Zoom value to at least {vorpx_config_zoom} if able.\033[0m")
     # Inform User of Completion of Code
     print("\nConfiguration updated successfully!")
-
 
 if __name__ == "__main__":
     main()

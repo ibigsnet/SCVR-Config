@@ -12,11 +12,11 @@ Warning! This will overright your current resolution, fov, window mode and vsync
 
 
 
-updated to force borderless and vsync off modes, more updates to come! This will probably ultimately be merged with the Kaglaaz's SCVR-Settings program.
+Updated to now give additional optional resolutions, should you want more options. I think I'm done working on this for a bit, there was enough changes to the code, that I'm just going to call it 2.0. This will probably ultimately be merged with the Kaglaaz's SCVR-Settings program.
 
 Feel free to create a desktop shortcut so that you can switch between resolutions easily.
 
-Version 1.1
+Version 2.0
 
 
 Special thanks to Cachi, Kaglaaz <3
