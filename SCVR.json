@@ -1,5 +1,234 @@
 {
   "1": {
+    "Headset Name": "Bigscreen Beyond",
+    "Headset Brand": "Bigscreen",
+    "Headset Model": "Beyond",
+    "Lens Configuration": "Native+R90",
+    "Hz": 90,
+    "SC Attributes FOV": 102.6,
+    "VorpX Config Pixel 1:1 Zoom": 1.085,
+    "All Possible Lens Configurations": [
+      "Choose One",
+      "Native+R90"
+    ],
+    "Custom Resolution List": [
+      "896 X 672 ( Safe Mode ) 25%",
+      "1182 X 888 ( Safe Mode ) 33%",
+      "1470 X 1102 ( Extremely High Performance ) 41%",
+      "1792 X 1344 ( High Performance ) 50%",
+      "2366 X 1774 ( Performance ) 66%",
+      "2688 X 2016 ( Quality ) 75%",
+      "3010 X 2258 ( High Quality ) 84%",
+      "3334 X 2500 ( Very High Quality ) 93%",
+      "3584 X 2688 ( Very High Quality ) 100%",
+      "4300 X 3226 ( Supreme Quality ) 120%",
+      "888 X 666 ( Safe Mode ) ~25%",
+      "1102 X 826 ( Safe Mode ) ~31%",
+      "1344 X 1008 ( Extremely High Performance ) ~38%",
+      "1774 X 1330 ( High Performance ) ~49%",
+      "2016 X 1512 ( Performance ) ~56%",
+      "2258 X 1694 ( Performance ) ~63%",
+      "2500 X 1874 ( Quality ) ~70%",
+      "2688 X 2016 ( Quality ) ~75%",
+      "3226 X 2420 ( Very High Quality ) ~90%"
+    ],
+    "Alternative Interger Resolutions (small list)": [
+      "640 x 480 (Ignore Me)",
+      "880 x 660 (Safe Mode)",
+      "960 x 720 (Safe Mode)",
+      "1120 x 840 (Safe Mode)",
+      "1280 x 960 (Extremely High Performance)",
+      "1360 x 1020 (Extremely High Performance)",
+      "1600 x 1200 (Extremely High Performance)",
+      "1840 x 1380 (High Performance)",
+      "1920 x 1440 (High Performance)",
+      "2080 x 1560 (Performance)",
+      "2240 x 1680 (Performance)",
+      "2320 x 1740 (Performance)",
+      "2560 x 1920 (Quality)",
+      "2800 x 2100 (Quality)",
+      "2880 x 2160 (High Quality)",
+      "3040 x 2280 (High Quality)",
+      "3200 x 2400 (High Quality)",
+      "3280 x 2460 (Very High Quality)",
+      "3520 x 2640 (Very High Quality)",
+      "3760 x 2820 (Extremely High Quality)",
+      "3840 x 2880 (Extremely High Quality)",
+      "4000 x 3000 (Extremely High Quality)",
+      "4160 x 3120 (Supreme Quality)",
+      "4240 x 3180 (Supreme Quality)",
+      "4480 x 3360 (Ultimate Quality)",
+      "4720 x 3540 (Ultimate Quality)",
+      "4800 x 3600 (Ultimate Quality)",
+      "4960 x 3720 (Hyperion Quality)",
+      "5120 x 3840 (Hyperion Quality)",
+      "5200 x 3900 (Hyperion Quality)",
+      "5440 x 4080 (Ludicrous)"
+    ],
+    "Alternative Interger Resolutions (big list)": [
+      "640 x 480 (Ignore Me)",
+      "880 x 660 (Safe Mode)",
+      "960 x 720 (Safe Mode)",
+      "1040 x 780 (Safe Mode)",
+      "1120 x 840 (Safe Mode)",
+      "1280 x 960 (Extremely High Performance)",
+      "1360 x 1020 (Extremely High Performance)",
+      "1440 x 1080 (Extremely High Performance)",
+      "1600 x 1200 (Extremely High Performance)",
+      "1840 x 1380 (High Performance)",
+      "1920 x 1440 (High Performance)",
+      "2080 x 1560 (Performance)",
+      "2240 x 1680 (Performance)",
+      "2320 x 1740 (Performance)",
+      "2560 x 1920 (Quality)",
+      "2640 x 1980 (Quality)",
+      "2800 x 2100 (Quality)",
+      "2880 x 2160 (High Quality)",
+      "3040 x 2280 (High Quality)",
+      "3200 x 2400 (High Quality)",
+      "3280 x 2460 (Very High Quality)",
+      "3440 x 2580 (Very High Quality)",
+      "3520 x 2640 (Very High Quality)",
+      "3760 x 2820 (Extremely High Quality)",
+      "3840 x 2880 (Extremely High Quality)",
+      "4000 x 3000 (Extremely High Quality)",
+      "4160 x 3120 (Supreme Quality)",
+      "4240 x 3180 (Supreme Quality)",
+      "4480 x 3360 (Ultimate Quality)",
+      "4640 x 3480 (Ultimate Quality)",
+      "4720 x 3540 (Ultimate Quality)",
+      "4800 x 3600 (Ultimate Quality)",
+      "4960 x 3720 (Hyperion Quality)",
+      "5040 x 3780 (Hyperion Quality)",
+      "5120 x 3840 (Hyperion Quality)",
+      "5200 x 3900 (Hyperion Quality)",
+      "5440 x 4080 (Ludicrous)"
+    ],
+    "Give me all the resolutions": [
+      "640 x 480 (Ignore Me)",
+      "680 x 510 (Ignore Me)",
+      "720 x 540 (Ignore Me)",
+      "760 x 570 (Ignore Me)",
+      "800 x 600 (Ignore Me)",
+      "840 x 630 (Safe Mode)",
+      "880 x 660 (Safe Mode)",
+      "920 x 690 (Safe Mode)",
+      "960 x 720 (Safe Mode)",
+      "1000 x 750 (Safe Mode)",
+      "1040 x 780 (Safe Mode)",
+      "1080 x 810 (Safe Mode)",
+      "1120 x 840 (Safe Mode)",
+      "1160 x 870 (Safe Mode)",
+      "1200 x 900 (Safe Mode)",
+      "1240 x 930 (Extremely High Performance)",
+      "1280 x 960 (Extremely High Performance)",
+      "1320 x 990 (Extremely High Performance)",
+      "1360 x 1020 (Extremely High Performance)",
+      "1400 x 1050 (Extremely High Performance)",
+      "1440 x 1080 (Extremely High Performance)",
+      "1480 x 1110 (Extremely High Performance)",
+      "1520 x 1140 (Extremely High Performance)",
+      "1560 x 1170 (Extremely High Performance)",
+      "1600 x 1200 (Extremely High Performance)",
+      "1640 x 1230 (High Performance)",
+      "1680 x 1260 (High Performance)",
+      "1720 x 1290 (High Performance)",
+      "1760 x 1320 (High Performance)",
+      "1800 x 1350 (High Performance)",
+      "1840 x 1380 (High Performance)",
+      "1880 x 1410 (High Performance)",
+      "1920 x 1440 (High Performance)",
+      "1960 x 1470 (High Performance)",
+      "2000 x 1500 (High Performance)",
+      "2040 x 1530 (Performance)",
+      "2080 x 1560 (Performance)",
+      "2120 x 1590 (Performance)",
+      "2160 x 1620 (Performance)",
+      "2200 x 1650 (Performance)",
+      "2240 x 1680 (Performance)",
+      "2280 x 1710 (Performance)",
+      "2320 x 1740 (Performance)",
+      "2360 x 1770 (Performance)",
+      "2400 x 1800 (Performance)",
+      "2440 x 1830 (Quality)",
+      "2480 x 1860 (Quality)",
+      "2520 x 1890 (Quality)",
+      "2560 x 1920 (Quality)",
+      "2600 x 1950 (Quality)",
+      "2640 x 1980 (Quality)",
+      "2680 x 2010 (Quality)",
+      "2720 x 2040 (Quality)",
+      "2760 x 2070 (Quality)",
+      "2800 x 2100 (Quality)",
+      "2840 x 2130 (High Quality)",
+      "2880 x 2160 (High Quality)",
+      "2920 x 2190 (High Quality)",
+      "2960 x 2220 (High Quality)",
+      "3000 x 2250 (High Quality)",
+      "3040 x 2280 (High Quality)",
+      "3080 x 2310 (High Quality)",
+      "3120 x 2340 (High Quality)",
+      "3160 x 2370 (High Quality)",
+      "3200 x 2400 (High Quality)",
+      "3240 x 2430 (Very High Quality)",
+      "3280 x 2460 (Very High Quality)",
+      "3320 x 2490 (Very High Quality)",
+      "3360 x 2520 (Very High Quality)",
+      "3400 x 2550 (Very High Quality)",
+      "3440 x 2580 (Very High Quality)",
+      "3480 x 2610 (Very High Quality)",
+      "3520 x 2640 (Very High Quality)",
+      "3560 x 2670 (Very High Quality)",
+      "3600 x 2700 (Very High Quality)",
+      "3640 x 2730 (Extremely High Quality)",
+      "3680 x 2760 (Extremely High Quality)",
+      "3720 x 2790 (Extremely High Quality)",
+      "3760 x 2820 (Extremely High Quality)",
+      "3800 x 2850 (Extremely High Quality)",
+      "3840 x 2880 (Extremely High Quality)",
+      "3880 x 2910 (Extremely High Quality)",
+      "3920 x 2940 (Extremely High Quality)",
+      "3960 x 2970 (Extremely High Quality)",
+      "4000 x 3000 (Extremely High Quality)",
+      "4040 x 3030 (Supreme Quality)",
+      "4080 x 3060 (Supreme Quality)",
+      "4120 x 3090 (Supreme Quality)",
+      "4160 x 3120 (Supreme Quality)",
+      "4200 x 3150 (Supreme Quality)",
+      "4240 x 3180 (Supreme Quality)",
+      "4280 x 3210 (Supreme Quality)",
+      "4320 x 3240 (Supreme Quality)",
+      "4360 x 3270 (Supreme Quality)",
+      "4400 x 3300 (Supreme Quality)",
+      "4440 x 3330 (Ultimate Quality)",
+      "4480 x 3360 (Ultimate Quality)",
+      "4520 x 3390 (Ultimate Quality)",
+      "4560 x 3420 (Ultimate Quality)",
+      "4600 x 3450 (Ultimate Quality)",
+      "4640 x 3480 (Ultimate Quality)",
+      "4680 x 3510 (Ultimate Quality)",
+      "4720 x 3540 (Ultimate Quality)",
+      "4760 x 3570 (Ultimate Quality)",
+      "4800 x 3600 (Ultimate Quality)",
+      "4840 x 3630 (Hyperion Quality)",
+      "4880 x 3660 (Hyperion Quality)",
+      "4920 x 3690 (Hyperion Quality)",
+      "4960 x 3720 (Hyperion Quality)",
+      "5000 x 3750 (Hyperion Quality)",
+      "5040 x 3780 (Hyperion Quality)",
+      "5080 x 3810 (Hyperion Quality)",
+      "5120 x 3840 (Hyperion Quality)",
+      "5160 x 3870 (Hyperion Quality)",
+      "5200 x 3900 (Hyperion Quality)",
+      "5240 x 3930 (Ludicrous)",
+      "5280 x 3960 (Ludicrous)",
+      "5320 x 3990 (Ludicrous)",
+      "5360 x 4020 (Ludicrous)",
+      "5400 x 4050 (Ludicrous)",
+      "5440 x 4080 (Ludicrous)"
+    ]
+  },
+  "2": {
     "Headset Name": "DPVR E4",
     "Headset Brand": "DPVR",
     "Headset Model": "E4",
@@ -226,7 +455,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "2": {
+  "3": {
     "Headset Name": "HP Reverb",
     "Headset Brand": "HP",
     "Headset Model": "Reverb",
@@ -451,7 +680,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "3": {
+  "4": {
     "Headset Name": "HP Reverb G2",
     "Headset Brand": "HP",
     "Headset Model": "Reverb G2",
@@ -678,7 +907,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "4": {
+  "5": {
     "Headset Name": "HTC Vive",
     "Headset Brand": "HTC",
     "Headset Model": "Vive",
@@ -904,7 +1133,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "5": {
+  "6": {
     "Headset Name": "HTC Vive Elite",
     "Headset Brand": "HTC",
     "Headset Model": "Vive Elite",
@@ -1130,7 +1359,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "6": {
+  "7": {
     "Headset Name": "HTC Vive Focus 3",
     "Headset Brand": "HTC",
     "Headset Model": "Vive Focus 3",
@@ -1359,7 +1588,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "7": {
+  "8": {
     "Headset Name": "HTC Vive Pro",
     "Headset Brand": "HTC",
     "Headset Model": "Vive Pro",
@@ -1588,7 +1817,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "8": {
+  "9": {
     "Headset Name": "HTC Vive Pro 2",
     "Headset Brand": "HTC",
     "Headset Model": "Vive Pro 2",
@@ -1818,7 +2047,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "9": {
+  "10": {
     "Headset Name": "HTC Vive XR Streaming",
     "Headset Brand": "HTC",
     "Headset Model": "Vive XR Streaming",
@@ -2043,7 +2272,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "10": {
+  "11": {
     "Headset Name": "Lenovo Explorer",
     "Headset Brand": "Lenovo",
     "Headset Model": "Explorer",
@@ -2269,7 +2498,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "11": {
+  "12": {
     "Headset Name": "Oculus Meta Quest Pro",
     "Headset Brand": "Oculus",
     "Headset Model": "Meta Quest Pro",
@@ -2496,7 +2725,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "12": {
+  "13": {
     "Headset Name": "Oculus Quest",
     "Headset Brand": "Oculus",
     "Headset Model": "Quest",
@@ -2722,7 +2951,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "13": {
+  "14": {
     "Headset Name": "Oculus Quest 2",
     "Headset Brand": "Oculus",
     "Headset Model": "Quest 2",
@@ -2949,7 +3178,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "14": {
+  "15": {
     "Headset Name": "Oculus Quest 3",
     "Headset Brand": "Oculus",
     "Headset Model": "Quest 3",
@@ -3176,7 +3405,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "15": {
+  "16": {
     "Headset Name": "Oculus Rift CV1",
     "Headset Brand": "Oculus",
     "Headset Model": "Rift CV1",
@@ -3400,7 +3629,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "16": {
+  "17": {
     "Headset Name": "Oculus Rift S",
     "Headset Brand": "Oculus",
     "Headset Model": "Rift S",
@@ -3625,7 +3854,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "17": {
+  "18": {
     "Headset Name": "Pico 4",
     "Headset Brand": "Pico",
     "Headset Model": "4",
@@ -3852,7 +4081,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "18": {
+  "19": {
     "Headset Name": "Pico Neo 3",
     "Headset Brand": "Pico",
     "Headset Model": "Neo 3",
@@ -4081,7 +4310,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "19": {
+  "20": {
     "Headset Name": "Pico Neo2",
     "Headset Brand": "Pico",
     "Headset Model": "Neo2",
@@ -4308,7 +4537,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "20": {
+  "21": {
     "Headset Name": "Pimax 5K Plus",
     "Headset Brand": "Pimax",
     "Headset Model": "5K Plus",
@@ -4552,7 +4781,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "21": {
+  "22": {
     "Headset Name": "Pimax 5K Plus",
     "Headset Brand": "Pimax",
     "Headset Model": "5K Plus",
@@ -4796,7 +5025,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "22": {
+  "23": {
     "Headset Name": "Pimax 5K Plus",
     "Headset Brand": "Pimax",
     "Headset Model": "5K Plus",
@@ -5039,7 +5268,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "23": {
+  "24": {
     "Headset Name": "Pimax 5K Plus",
     "Headset Brand": "Pimax",
     "Headset Model": "5K Plus",
@@ -5282,7 +5511,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "24": {
+  "25": {
     "Headset Name": "Pimax 5K Plus",
     "Headset Brand": "Pimax",
     "Headset Model": "5K Plus",
@@ -5526,7 +5755,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "25": {
+  "26": {
     "Headset Name": "Pimax 5K Plus",
     "Headset Brand": "Pimax",
     "Headset Model": "5K Plus",
@@ -5770,7 +5999,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "26": {
+  "27": {
     "Headset Name": "Pimax 5K Plus",
     "Headset Brand": "Pimax",
     "Headset Model": "5K Plus",
@@ -6012,7 +6241,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "27": {
+  "28": {
     "Headset Name": "Pimax 5K Plus",
     "Headset Brand": "Pimax",
     "Headset Model": "5K Plus",
@@ -6254,7 +6483,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "28": {
+  "29": {
     "Headset Name": "Pimax 5K Plus",
     "Headset Brand": "Pimax",
     "Headset Model": "5K Plus",
@@ -6496,7 +6725,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "29": {
+  "30": {
     "Headset Name": "Pimax 5K Plus",
     "Headset Brand": "Pimax",
     "Headset Model": "5K Plus",
@@ -6739,7 +6968,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "30": {
+  "31": {
     "Headset Name": "Pimax 5K Plus",
     "Headset Brand": "Pimax",
     "Headset Model": "5K Plus",
@@ -6982,7 +7211,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "31": {
+  "32": {
     "Headset Name": "Pimax 5K Plus",
     "Headset Brand": "Pimax",
     "Headset Model": "5K Plus",
@@ -7225,7 +7454,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "32": {
+  "33": {
     "Headset Name": "Pimax 5K Plus",
     "Headset Brand": "Pimax",
     "Headset Model": "5K Plus",
@@ -7466,7 +7695,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "33": {
+  "34": {
     "Headset Name": "Pimax 5K Plus",
     "Headset Brand": "Pimax",
     "Headset Model": "5K Plus",
@@ -7707,7 +7936,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "34": {
+  "35": {
     "Headset Name": "Pimax 5K Plus",
     "Headset Brand": "Pimax",
     "Headset Model": "5K Plus",
@@ -7949,7 +8178,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "35": {
+  "36": {
     "Headset Name": "Pimax 5K Plus",
     "Headset Brand": "Pimax",
     "Headset Model": "5K Plus",
@@ -8191,7 +8420,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "36": {
+  "37": {
     "Headset Name": "Pimax 8K",
     "Headset Brand": "Pimax",
     "Headset Model": "8K",
@@ -8424,7 +8653,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "37": {
+  "38": {
     "Headset Name": "Pimax 8K",
     "Headset Brand": "Pimax",
     "Headset Model": "8K",
@@ -8657,7 +8886,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "38": {
+  "39": {
     "Headset Name": "Pimax 8K",
     "Headset Brand": "Pimax",
     "Headset Model": "8K",
@@ -8890,7 +9119,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "39": {
+  "40": {
     "Headset Name": "Pimax 8K",
     "Headset Brand": "Pimax",
     "Headset Model": "8K",
@@ -9123,7 +9352,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "40": {
+  "41": {
     "Headset Name": "Pimax 8K",
     "Headset Brand": "Pimax",
     "Headset Model": "8K",
@@ -9356,7 +9585,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "41": {
+  "42": {
     "Headset Name": "Pimax 8K",
     "Headset Brand": "Pimax",
     "Headset Model": "8K",
@@ -9589,7 +9818,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "42": {
+  "43": {
     "Headset Name": "Pimax Artisan",
     "Headset Brand": "Pimax",
     "Headset Model": "Artisan",
@@ -9823,7 +10052,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "43": {
+  "44": {
     "Headset Name": "Pimax Artisan",
     "Headset Brand": "Pimax",
     "Headset Model": "Artisan",
@@ -10057,7 +10286,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "44": {
+  "45": {
     "Headset Name": "Pimax Artisan",
     "Headset Brand": "Pimax",
     "Headset Model": "Artisan",
@@ -10293,7 +10522,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "45": {
+  "46": {
     "Headset Name": "Pimax Artisan",
     "Headset Brand": "Pimax",
     "Headset Model": "Artisan",
@@ -10528,7 +10757,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "46": {
+  "47": {
     "Headset Name": "Pimax Artisan",
     "Headset Brand": "Pimax",
     "Headset Model": "Artisan",
@@ -10762,7 +10991,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "47": {
+  "48": {
     "Headset Name": "Pimax Artisan",
     "Headset Brand": "Pimax",
     "Headset Model": "Artisan",
@@ -10995,7 +11224,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "48": {
+  "49": {
     "Headset Name": "Pimax Artisan",
     "Headset Brand": "Pimax",
     "Headset Model": "Artisan",
@@ -11230,7 +11459,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "49": {
+  "50": {
     "Headset Name": "Pimax Artisan",
     "Headset Brand": "Pimax",
     "Headset Model": "Artisan",
@@ -11464,7 +11693,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "50": {
+  "51": {
     "Headset Name": "Pimax Crystal",
     "Headset Brand": "Pimax",
     "Headset Model": "Crystal",
@@ -11691,7 +11920,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "51": {
+  "52": {
     "Headset Name": "Pimax Vision 8K Plus",
     "Headset Brand": "Pimax",
     "Headset Model": "Vision 8K Plus",
@@ -11935,7 +12164,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "52": {
+  "53": {
     "Headset Name": "Pimax Vision 8K Plus",
     "Headset Brand": "Pimax",
     "Headset Model": "Vision 8K Plus",
@@ -12179,7 +12408,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "53": {
+  "54": {
     "Headset Name": "Pimax Vision 8K Plus",
     "Headset Brand": "Pimax",
     "Headset Model": "Vision 8K Plus",
@@ -12423,7 +12652,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "54": {
+  "55": {
     "Headset Name": "Pimax Vision 8K Plus",
     "Headset Brand": "Pimax",
     "Headset Model": "Vision 8K Plus",
@@ -12667,7 +12896,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "55": {
+  "56": {
     "Headset Name": "Pimax Vision 8K Plus",
     "Headset Brand": "Pimax",
     "Headset Model": "Vision 8K Plus",
@@ -12910,14 +13139,14 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "56": {
+  "57": {
     "Headset Name": "Pimax Vision 8K Plus",
     "Headset Brand": "Pimax",
     "Headset Model": "Vision 8K Plus",
     "Lens Configuration": "Normal+Native+R90",
     "Hz": 90,
     "SC Attributes FOV": 128.46583,
-    "VorpX Config Pixel 1:1 Zoom": "w Aw aw aw",
+    "VorpX Config Pixel 1:1 Zoom": 1.15,
     "All Possible Lens Configurations": [
       "Choose One",
       "Large+Native+R110",
@@ -13153,7 +13382,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "57": {
+  "58": {
     "Headset Name": "Pimax Vision 8K Plus",
     "Headset Brand": "Pimax",
     "Headset Model": "Vision 8K Plus",
@@ -13397,7 +13626,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "58": {
+  "59": {
     "Headset Name": "Pimax Vision 8K Plus",
     "Headset Brand": "Pimax",
     "Headset Model": "Vision 8K Plus",
@@ -13641,7 +13870,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "59": {
+  "60": {
     "Headset Name": "Pimax Vision 8K Plus",
     "Headset Brand": "Pimax",
     "Headset Model": "Vision 8K Plus",
@@ -13883,7 +14112,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "60": {
+  "61": {
     "Headset Name": "Pimax Vision 8K Plus",
     "Headset Brand": "Pimax",
     "Headset Model": "Vision 8K Plus",
@@ -14125,7 +14354,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "61": {
+  "62": {
     "Headset Name": "Pimax Vision 8K Plus",
     "Headset Brand": "Pimax",
     "Headset Model": "Vision 8K Plus",
@@ -14368,7 +14597,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "62": {
+  "63": {
     "Headset Name": "Pimax Vision 8K Plus",
     "Headset Brand": "Pimax",
     "Headset Model": "Vision 8K Plus",
@@ -14611,7 +14840,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "63": {
+  "64": {
     "Headset Name": "Pimax Vision 8K Plus",
     "Headset Brand": "Pimax",
     "Headset Model": "Vision 8K Plus",
@@ -14852,7 +15081,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "64": {
+  "65": {
     "Headset Name": "Pimax Vision 8K Plus",
     "Headset Brand": "Pimax",
     "Headset Model": "Vision 8K Plus",
@@ -15093,7 +15322,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "65": {
+  "66": {
     "Headset Name": "Pimax Vision 8K Plus",
     "Headset Brand": "Pimax",
     "Headset Model": "Vision 8K Plus",
@@ -15335,7 +15564,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "66": {
+  "67": {
     "Headset Name": "Pimax Vision 8K Plus",
     "Headset Brand": "Pimax",
     "Headset Model": "Vision 8K Plus",
@@ -15577,7 +15806,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "67": {
+  "68": {
     "Headset Name": "Pimax Vision 8K X",
     "Headset Brand": "Pimax",
     "Headset Model": "Vision 8K X",
@@ -15813,7 +16042,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "68": {
+  "69": {
     "Headset Name": "Pimax Vision 8K X",
     "Headset Brand": "Pimax",
     "Headset Model": "Vision 8K X",
@@ -16044,7 +16273,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "69": {
+  "70": {
     "Headset Name": "Pimax Vision 8K X",
     "Headset Brand": "Pimax",
     "Headset Model": "Vision 8K X",
@@ -16281,7 +16510,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "70": {
+  "71": {
     "Headset Name": "Pimax Vision 8K X",
     "Headset Brand": "Pimax",
     "Headset Model": "Vision 8K X",
@@ -16517,7 +16746,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "71": {
+  "72": {
     "Headset Name": "Pimax Vision 8K X",
     "Headset Brand": "Pimax",
     "Headset Model": "Vision 8K X",
@@ -16753,7 +16982,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "72": {
+  "73": {
     "Headset Name": "Pimax Vision 8K X",
     "Headset Brand": "Pimax",
     "Headset Model": "Vision 8K X",
@@ -16989,7 +17218,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "73": {
+  "74": {
     "Headset Name": "Pimax Vision 8K X",
     "Headset Brand": "Pimax",
     "Headset Model": "Vision 8K X",
@@ -17225,7 +17454,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "74": {
+  "75": {
     "Headset Name": "Pimax Vision 8K X",
     "Headset Brand": "Pimax",
     "Headset Model": "Vision 8K X",
@@ -17460,7 +17689,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "75": {
+  "76": {
     "Headset Name": "StarVR One",
     "Headset Brand": "StarVR",
     "Headset Model": "One",
@@ -17684,7 +17913,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "76": {
+  "77": {
     "Headset Name": "StarVR One",
     "Headset Brand": "StarVR",
     "Headset Model": "One",
@@ -17913,7 +18142,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "77": {
+  "78": {
     "Headset Name": "Valve Index",
     "Headset Brand": "Valve",
     "Headset Model": "Index",
@@ -18143,7 +18372,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "78": {
+  "79": {
     "Headset Name": "Valve Index",
     "Headset Brand": "Valve",
     "Headset Model": "Index",
@@ -18373,7 +18602,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "79": {
+  "80": {
     "Headset Name": "Varjo Aero",
     "Headset Brand": "Varjo",
     "Headset Model": "Aero",
@@ -18603,7 +18832,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "80": {
+  "81": {
     "Headset Name": "Varjo VR-2",
     "Headset Brand": "Varjo",
     "Headset Model": "VR-2",
@@ -18830,7 +19059,7 @@
       "5440 x 4080 (Ludicrous)"
     ]
   },
-  "81": {
+  "82": {
     "Headset Name": "Varjo XR-1",
     "Headset Brand": "Varjo",
     "Headset Model": "XR-1",
