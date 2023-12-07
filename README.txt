@@ -1,4 +1,4 @@
-Warning! This will overright your current resolution, fov, window mode and vsync settings for Star Citizen (the attributes.xml file)
+Warning! This will overwrite your current resolution, fov, window mode and vsync settings for Star Citizen (the attributes.xml file)
 
 1) Place both SCVR.exe and SCVR.json next to your attributes file
 
@@ -12,11 +12,15 @@ Warning! This will overright your current resolution, fov, window mode and vsync
 
 
 
-Updated to now give additional optional resolutions, should you want more options. I think I'm done working on this for a bit, there was enough changes to the code, that I'm just going to call it 2.0. This will probably ultimately be merged with the Kaglaaz's SCVR-Settings program.
+-Fixed bug where Height and Width were set to 0 in the attributes.xml file.
+-Fixed bug where VSync off and windowed borderless was appended rather than replaced.
+
+
+This will probably ultimately be merged with the Kaglaaz's SCVR-Settings program.
 
 Feel free to create a desktop shortcut so that you can switch between resolutions easily.
 
-Version 2.0
+Version 2.0.2
 
 
 Special thanks to Cachi, Kaglaaz <3

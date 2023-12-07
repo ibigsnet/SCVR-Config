@@ -1,6 +1,6 @@
 """
 Script Name: SCVR.py
-Version: 1.2
+Version: 2.0.2
 Author: Kory Kinnett
 Date: December 2023
 
@@ -29,17 +29,12 @@ def update_xml_config(xml_filename, fov, height, width):
         elif attr.attrib["name"] == "Width":
             attr.set("value", str(width))
 
-    # VSync disabled
-    vsync_attr = ET.Element("Attr")
-    vsync_attr.set("name", "VSync")
-    vsync_attr.set("value", "0")
-    root.append(vsync_attr)
-    
-    # Windowed mode borderless
-    window_mode_attr = ET.Element("Attr")
-    window_mode_attr.set("name", "WindowMode")
-    window_mode_attr.set("value", "2")
-    root.append(window_mode_attr)
+    # Find the position to insert VSync and WindowMode attributes
+    last_attr_position = root.findall(".//Attr")[-1]
+
+    # Use insert method to add elements at specific positions
+    root.insert(root.getchildren().index(last_attr_position) + 1, ET.Element("Attr", {"name": "VSync", "value": "0"}))
+    root.insert(root.getchildren().index(last_attr_position) + 2, ET.Element("Attr", {"name": "WindowMode", "value": "2"}))
 
     tree.write(xml_filename)
 
@@ -175,8 +170,12 @@ def main():
     # Inform User of Completion of Code
     print("\nConfiguration updated successfully!")
 
+    # Additional print line for alternative resolutions
+    if option_index == additional_option_index:
+        print(f"\nSelected Alternative Resolution: {selected_resolution}")
+
 if __name__ == "__main__":
     main()
 
-# Pause to allow the user to see and take note of the vorpx zoom value
-input("Press Enter to close... Else, you can close me now.")
+    # Pause to allow the user to see and take note of the vorpx zoom value
+    input("Press Enter to close... Else, you can close me now.")
