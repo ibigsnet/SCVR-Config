@@ -33,8 +33,10 @@ def update_xml_config(xml_filename, fov, height, width):
     last_attr_position = root.findall(".//Attr")[-1]
 
     # Use insert method to add elements at specific positions
-    root.insert(root.getchildren().index(last_attr_position) + 1, ET.Element("Attr", {"name": "VSync", "value": "0"}))
-    root.insert(root.getchildren().index(last_attr_position) + 2, ET.Element("Attr", {"name": "WindowMode", "value": "2"}))
+    children = list(root)
+    root.insert(children.index(last_attr_position) + 1, ET.Element("Attr", {"name": "VSync", "value": "0"}))
+    root.insert(children.index(last_attr_position) + 2, ET.Element("Attr", {"name": "WindowMode", "value": "2"}))
+
 
     tree.write(xml_filename)
 
@@ -161,7 +163,11 @@ def main():
     print("\nSelected Configuration:")
     print(f"Headset: {selected_brand} {selected_model}")
     print(f"Lens Configuration: {selected_lens_config}")
-    print(f"Resolution: {selected_resolution}")
+    # Additional print line for alternative resolutions
+    if option_index == additional_option_index:
+        print(f"\nSelected Alternative Resolution: {selected_resolution}")
+    else:
+        print(f"Resolution: {selected_resolution}")
     # Print fixed values
     print("SC window mode set to Borderless")
     print("VSync has been disabled (recommended)")
@@ -169,10 +175,6 @@ def main():
     print(f"\033[1mRecommended setting your VorpX Pixel 1:1 Zoom value to at least {vorpx_config_zoom} if able.\033[0m")
     # Inform User of Completion of Code
     print("\nConfiguration updated successfully!")
-
-    # Additional print line for alternative resolutions
-    if option_index == additional_option_index:
-        print(f"\nSelected Alternative Resolution: {selected_resolution}")
 
 if __name__ == "__main__":
     main()

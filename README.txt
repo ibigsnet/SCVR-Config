@@ -14,7 +14,8 @@ Warning! This will overwrite your current resolution, fov, window mode and vsync
 
 -Fixed bug where Height and Width were set to 0 in the attributes.xml file.
 -Fixed bug where VSync off and windowed borderless was appended rather than replaced.
-
+-Fixed deprecated code causing warning to be printed to console.
+-Fixed resolution confirmation prints to correctly display to the user.
 
 This will probably ultimately be merged with the Kaglaaz's SCVR-Settings program.
 
