@@ -1,0 +1,44 @@
+{
+  "Scatter": [
+    {"value": 0, "label": "0 - Medium (Default)"},
+    {"value": 750, "label": "750 - Low (In-Game Preset)"},
+    {"value": 1300, "label": "1300 - High (In-Game Preset)"},
+    {"value": 1850, "label": "1850 - Pretty High (Custom)"},
+    {"value": 2400, "label": "2400 - Pretty High (Custom)"},
+    {"value": 2950, "label": "2950 - Very High (Recommended)"},
+    {"value": 3500, "label": "3500 - Very High (Custom)"},
+    {"value": 4050, "label": "4050 - Extreme (Custom)"},
+    {"value": 4600, "label": "4600 - Extreme (Custom)"},
+    {"value": 5150, "label": "5150 - Supreme (Custom)"},
+    {"value": 5700, "label": "5700 - Supreme (Custom)"},
+    {"value": 6250, "label": "6250 - Ultimate (Custom)"},
+    {"value": 6800, "label": "6800 - Ultimate (Custom)"},
+    {"value": 7350, "label": "7350 - Hyperion (Custom)"},
+    {"value": 7900, "label": "7900 - Hyperion (Custom)"},
+    {"value": 8450, "label": "8450 - Ludicrous (Custom)"},
+    {"value": 9000, "label": "9000 - Over 9000! (Custom)"}
+  ],
+  "Tessellation": [
+    {"value": 0, "label": "0 - Default (Medium)"},
+    {"value": 5, "label": "5 - In-Game Preset (Low)"},
+    {"value": 50, "label": "50 - In-Game Preset (High)"},
+    {"value": 55, "label": "55 - Further (Custom)"},
+    {"value": 60, "label": "60 - Further (Custom)"},
+    {"value": 65, "label": "65 - Further (Custom)"},
+    {"value": 70, "label": "70 - Beyond Further (Custom)"},
+    {"value": 75, "label": "75 - Beyond Further (Custom)"},
+    {"value": 80, "label": "80 - Beyond Further (Custom)"},
+    {"value": 85, "label": "85 - Far (Custom)"},
+    {"value": 90, "label": "90 - Far (Custom)"},
+    {"value": 95, "label": "95 - Far (Custom)"},
+    {"value": 100, "label": "100 - Doubled (Recommended)"},
+    {"value": 150, "label": "150 - Trippled (Custom)"},
+    {"value": 200, "label": "200 - Quadroupled (Custom)"},
+    {"value": 250, "label": "250 - Quintoupled (Custom)"},
+    {"value": 300, "label": "300 - Sextupled (Custom)"}
+  ],
+  "Clouds": [
+    {"value": 1, "label": "0 - Fast (Off - Recommended)"},
+    {"value": 4, "label": "1 - Pretty (Internal - Engine)"}
+  ]
+}

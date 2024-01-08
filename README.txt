@@ -11,17 +11,30 @@ Warning! This will overwrite your current resolution, fov, window mode and vsync
 3)	DONE!
 
 
+2.0.3:
+Added:
+-Forces MotionBlur Disabled
+-Forces GForceZoomScale Static
+-Forces AutoZoomOnSelectedTargetStrength Static
+-Forces ShakeScale to 0 (off)
+-Forces Sharpening 100%
+-Forces ChromaticAberration 0%
+-Forces FilmGrain Disabled
 
+Fixed:
+-Fixed bug where Height and Width were still setting to 0 if you chose from the additional resolutions list.
+
+2.0.2:
 -Fixed bug where Height and Width were set to 0 in the attributes.xml file.
 -Fixed bug where VSync off and windowed borderless was appended rather than replaced.
 -Fixed deprecated code causing warning to be printed to console.
 -Fixed resolution confirmation prints to correctly display to the user.
 
-This will probably ultimately be merged with the Kaglaaz's SCVR-Settings program.
+This is laying the foundation for a new C-based program coming soon.
 
 Feel free to create a desktop shortcut so that you can switch between resolutions easily.
 
-Version 2.0.2
+Version 2.0.3
 
 
-Special thanks to Cachi, Kaglaaz <3
+Special thanks to Cachi, Kaglaaz and blu! <3
